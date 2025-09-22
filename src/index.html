@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Markdown Notebook</title>
+    <link rel="stylesheet" href="./styles/layout.css" />
+    <link rel="stylesheet" href="./styles/toolbar.css" />
+    <link rel="stylesheet" href="./styles/notebook-sidebar.css" />
+    <link rel="stylesheet" href="./styles/editor.css" />
+    <link rel="stylesheet" href="./styles/preview.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header id="toolbar-root"></header>
+      <div class="workspace">
+        <aside id="notebook-root"></aside>
+        <main class="content-region">
+          <section id="editor-root"></section>
+          <section id="preview-root"></section>
+        </main>
+      </div>
+    </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
